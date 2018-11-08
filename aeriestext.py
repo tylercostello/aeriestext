@@ -98,9 +98,9 @@ while hour>=6 and hour<=23 and datetime.datetime.today().weekday()<5:
                                 if newper3!=per3:
                                         mymessage=" Period 3 "+str(newper3)
                                         sendtext(mymessage)
-                                        b = open('period3.txt','w')
-                                        b.write(newper3)
-                                        b.close()
+                                        c = open('period3.txt','w')
+                                        c.write(newper3)
+                                        c.close()
                                         per3=newper3
                                 if newper4!=per4:
                                         mymessage="Period 4 "+str(newper4)
